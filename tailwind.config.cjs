@@ -8,6 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'transparent' : 'rgb(0%,0%,0%)',
+        
         'gray-100' : '#f2f2f2',
         'gray-200' : '#d9d9d9',
         'gray-300' : '#808080',
@@ -23,8 +25,13 @@ module.exports = {
 
         "purple" : "#8284FA",
         "purple-dark" : "#5E60CE",
+      },
+
+      boxShadow: {
+        'input' : '0 0 0 2px (#5E60CE)'
       }
     },
+
   },
   fontSize:{
     xs: 12,
