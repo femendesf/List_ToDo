@@ -27,4 +27,5 @@ Instale o projeto com npm
  - [Vite](https://vitejs.dev/)
  - [PhosphorIcons](https://phosphoricons.com/)
  - [Tailwindcss](https://tailwindcss.com/)
+ - [Checkbox - Radix UI](https://www.radix-ui.com/docs/primitives/components/checkbox#checkbox)
 
