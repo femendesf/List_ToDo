@@ -26,13 +26,18 @@ module.exports = {
         "purple" : "#8284FA",
         "purple-dark" : "#5E60CE",
       },
-
-      boxShadow: {
-        'input' : '0 0 0 2px (#5E60CE)'
+      keyframes: {
+        opacity: {
+          '0%' : {opacity: .1},
+          '100%' : {opacity: 1}
+        },
+      },
+      animation: {
+        'opacity' : 'opacity 500ms '
       }
-    },
-
+    }
   },
+ 
   fontSize:{
     xs: 12,
     sm: 14,

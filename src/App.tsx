@@ -1,7 +1,6 @@
 
 import { Header } from './components/Header';
 import { InputList } from './components/InputList';
-import { ListToDo } from './components/ListToDo';
 
 export function App() {
 
