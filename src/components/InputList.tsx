@@ -31,7 +31,7 @@ export function InputList() {
     function handleCreateList(){
       
       if(textListToDo == ''){
-        alert('DIGITA ALGO SEU ARROMBADO, QUER CRIAR UMA LISTA COM NADA?????????? LIXOOOO')
+        alert('Digite algo!')
       }else{
         setListToDo([...listToDo,{
         id: uuidv4(),
@@ -73,12 +73,10 @@ export function InputList() {
       return atual
     }, 0)
 
-    console.log(countCheck)
-
       return (
 
         <div>
-
+            
             <div className="flex gap-2 items-center justify-center mt-[-50px] mb-16" id="list">
                 <textarea 
                     className="w-[638px] h-[54px] bg-gray-500 text-gray-300 rounded-lg p-4 overflow-hidden resize-none focus:outline-none focus:shadow-[0_0_0_1px_#5E60CE] " 
