@@ -3,8 +3,6 @@ import { Check, Trash} from 'phosphor-react'
 
 import { useState } from 'react';
 
-
-
 interface CreateListProps{
 
     id?: string,
@@ -40,14 +38,11 @@ export function CreateList({text, id, check ,onDeleteItem, onCheckChanged} : Cre
     onDeleteItem(id!)
   }
 
- 
   return (
       
       <div 
         className="bg-gray-500 w-[736px] flex items-start p-4 mb-3 gap-3 rounded border-gray-400 border-[1px] animate-opacity" 
       >
-
-
       <Checkbox.Root 
         className={checked ? 'items-center justify-center rounded-[999px] w-[18px] h-[18px] bg-purple-dark hover:bg-purple ' 
         : 'flex items-center justify-center rounded-[999px] border-blue hover:bg-blue-dark hover:border-blue-dark hover:bg-opacity-20 border-[2px] w-[18px] h-[18px] '}
@@ -58,7 +53,7 @@ export function CreateList({text, id, check ,onDeleteItem, onCheckChanged} : Cre
         <Checkbox.Indicator
           asChild
           className='ml-[2px] items-center justify-center'
-          
+        
         >
           <Check size={14} weight='bold' className='text-gray-100'/>
       

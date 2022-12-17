@@ -1,5 +1,3 @@
-import {Clipboard} from 'phosphor-react'
-
 export function LayoutEmptyList(){
 
    return(
