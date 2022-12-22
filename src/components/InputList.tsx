@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { FormEvent, useState } from "react"
 
 import { PlusCircle} from 'phosphor-react'
 import { CreateList } from "./CreateList"
@@ -28,18 +28,16 @@ export function InputList() {
         
     }
     
-    function handleCreateList(){
+    function handleCreateList(event : FormEvent){
       
-      if(textListToDo == ''){
-        alert('Digite algo!')
-      }else{
-        setListToDo([...listToDo,{
+      event.preventDefault()
+
+      setListToDo([...listToDo,{
         id: uuidv4(),
         text: textListToDo,
         check: false
       }])
-      }
-
+      
       setTextListToDo('')
     }
 
@@ -76,8 +74,8 @@ export function InputList() {
       return (
 
         <div>
-            
-            <div className="flex gap-2 items-center justify-center mt-[-50px] mb-16" id="list">
+            <form onSubmit={handleCreateList} className="flex gap-2 items-center justify-center mt-[-50px] mb-16" id="list">
+               
                 <textarea 
                     className="w-[638px] h-[54px] bg-gray-500 text-gray-300 rounded-lg p-4 overflow-hidden resize-none focus:outline-none focus:shadow-[0_0_0_1px_#5E60CE] " 
                     onChange={handleTextToList}
@@ -86,20 +84,20 @@ export function InputList() {
                     name="text_list" 
                     required
                     id="text_list">
-                    
-                    
                 </textarea>
 
                 <button
-                    onClick={handleCreateList}
+                    type='submit'
                     className="bg-blue-dark w-[90px] h-[52px] rounded-md text-gray-100 font-bold flex items-center justify-center gap-2 hover:bg-blue">
                         Criar
                         <PlusCircle weight="bold" size={16} />
                 </button>
 
-            </div>
+          
+            </form>
+           
 
-          <main >
+          <main>
 
             <header className="flex items-center justify-between h-5 mb-6">
               <h2 className="text-sm font-bold text-blue flex gap-2 items-center ">Tarefas criadas 
