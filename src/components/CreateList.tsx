@@ -11,7 +11,6 @@ interface CreateListProps{
     onDeleteItem: (id: string) => void,
     onCheckChanged:  (id: string, checked :  boolean) => void,
 
-
 }
 
 export function CreateList({text, id, check ,onDeleteItem, onCheckChanged} : CreateListProps) {

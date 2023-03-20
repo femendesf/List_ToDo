@@ -3,9 +3,6 @@
 Projeto desenvolvido para o desafio do curso Ignite da Rockeseat. 🚀
 
 
- 
-
-
 ## Screenshots
 <img src="github\list_empty.png" alt="List Empty"/>
 
@@ -16,9 +13,8 @@ Projeto desenvolvido para o desafio do curso Ignite da Rockeseat. 🚀
 
 Instale o projeto com npm
 
-```bash
-  npm install
-```
+`npm install`
+
     
 ## Tools
 
