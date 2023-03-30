@@ -10,12 +10,18 @@ Nessa aplicação o usuário pode criar uma lista. Pode também marcar um item c
 <img src="github\list_full.png" alt="List with itens" />
 
 
-## Instalação
+## Install project:
 
 Instale o projeto com npm
 
 `npm install`
 
+---
+
+## Start project:
+`npm run dev`
+
+---
     
 ## Tools
 
