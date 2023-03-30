@@ -2,6 +2,7 @@
 
 Projeto desenvolvido para o desafio do curso Ignite da Rockeseat. 🚀
 
+Nessa aplicação o usuário pode criar uma lista. Pode também marcar um item como concluído ou excluir.
 
 ## Screenshots
 <img src="github\list_empty.png" alt="List Empty"/>
