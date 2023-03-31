@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para o desafio do curso Ignite da Rockeseat. 🚀
 
-Nessa aplicação o usuário pode criar uma lista. Pode também marcar um item como concluído ou excluir.
+Nessa aplicação o usuário pode criar uma lista. Pode também marcar um item da lista como concluído ou excluir.
 
 ## Screenshots
 <img src="github\list_empty.png" alt="List Empty"/>
@@ -19,7 +19,7 @@ Instale o projeto com npm
 ---
 
 ## Start project:
-`npm run dev`
+run vite : `npm run dev`
 
 ---
     
