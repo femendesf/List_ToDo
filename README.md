@@ -1,6 +1,6 @@
 # Ignite - List To Do
 
-Projeto desenvolvido para o desafio do curso Ignite da Rockeseat. 🚀
+Projeto desenvolvido para o desafio 01 do curso Ignite da Rockeseat. 🚀
 
 Nessa aplicação o usuário pode criar uma lista. Pode também marcar um item da lista como concluído ou excluir.
 
